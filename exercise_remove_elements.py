@@ -1,5 +1,3 @@
-# Ejercicio 4: Remover elementos en posiciones específicas
-
 def remove_elements(lista):
     """
     Remueve el primer, quinto y sexto elemento de la lista.
@@ -11,4 +9,6 @@ def remove_elements(lista):
     Returns:
         La lista después de remover los elementos indicados
     """
-    pass  # Reemplazar con tu implementación
+    del lista[:1],
+    del lista[3:5]
+    return lista

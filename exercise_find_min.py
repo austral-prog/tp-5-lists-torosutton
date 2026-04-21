@@ -1,5 +1,3 @@
-# Ejercicio 6: Encontrar el mínimo en una lista
-
 def find_min(lista):
     """
     Encuentra y retorna el valor mínimo en una lista de números.
@@ -11,4 +9,6 @@ def find_min(lista):
     Returns:
         El valor mínimo de la lista o None si está vacía
     """
-    pass  # Reemplazar con tu implementación
+    if lista==[]:
+        return None
+    else: return min(lista)
