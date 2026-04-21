@@ -10,5 +10,7 @@ def find_max(lista):
     """
     if lista==[]:
         return None
-    else:return find_max(lista)
-
+    elif len(lista)==1:
+        return lista[0]
+    else:
+        return max(lista)
